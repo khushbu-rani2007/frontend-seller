@@ -1,3 +1,4 @@
+```javascript
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -13,5 +14,7 @@ export default defineConfig({
   },
   preview: {
     port: 4174,
+    allowedHosts: ['frontend-tribal-market.onrender.com'],
   },
 });
+```
